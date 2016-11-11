@@ -33,27 +33,24 @@ def startTimer( threadName, delay):
 
    while True:
        try:
-           if hours > 1:
-              var1.set(str(hours) + ": ")
-           else:
-              var1.set(str(hours) + ": ")
-
+           var1.set(str(hours) + ": ")
            var2.set(str(minutes) + ": ")
            var3.set(str(seconds) + " ")
-           # var2.set(seconds)
-           time.sleep(1)
-           # seconds = int(time.time() - time_start) - minutes * 60
-           seconds += 1;
+
            var4.set(strftime("%H:"))
            var5.set(strftime("%M:"))
            var6.set(strftime("%S"))
-           if seconds >= 60: 
-               minutes += 1
-               seconds = 0 
 
-           if minutes >= 60: 
+           time.sleep(1)
+           seconds += 1;
+
+           if seconds == 60: 
+               minutes += 1
+               seconds = 1 
+
+           if minutes == 60: 
                hours += 1
-               minutes = 0 
+               minutes = 1 
 
            if timer_stop == 1:
                timer_stop = 0
