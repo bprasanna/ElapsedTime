@@ -7,11 +7,13 @@ Double click on the file, it will open the application window, where start and s
 # To make font work
 To make the font work, we need install tkFontChooser
 
-Without proxy:
-pip install tkFontChooser
+*Without proxy:*
 
-With proxy:
-pip install tkFontChooser --proxy=host:port
+`pip install tkFontChooser`
+
+*With proxy:*
+
+`pip install tkFontChooser --proxy=host:port`
 
 # Compatibility
 Runs in Python 3, in Python 2 some packages and methods usage need to be changed
