@@ -128,7 +128,7 @@ def chooseFont():
         # font['family'] = font['family'].replace(' ', '\ ')
         cFont = tkinter.font.Font(family="%(family)s" % font, size="%(size)i" % font)
         label1.configure(font=cFont)
-        label2.configure(font=cFont
+        label2.configure(font=cFont)
         label3.configure(font=cFont)
         label4.configure(font=cFont)
         label5.configure(font=cFont)
