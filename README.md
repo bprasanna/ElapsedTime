@@ -1,11 +1,13 @@
 # ElapsedTime
 Simple python tkinter based elapsed time tool
 
+![ElapsedTime](elapsedtime.png)
+
 # To run
 Double click on the file, it will open the application window, where start and stop can be chosen
 
 # To make font work
-To make the font work, we need install tkFontChooser
+To make the font work, we need to install tkFontChooser
 
 *Without proxy:*
 
