@@ -1,7 +1,7 @@
 # ElapsedTime
 Simple python tkinter based elapsed time tool
 
-![ElapsedTime](elapsedtime.png)
+![ElapsedTime](elapsedtime2.png)
 
 # To run
 Double click on the file, it will open the application window, where start and stop can be chosen
